@@ -1,0 +1,229 @@
+section {
+    background-color: #303337;
+    /* background-image: url(Assets/bic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: linear-gradient(rgba(30, 27, 27, 0.8), rgba(27, 55, 91, 0.49) );
+    
+    width: 100%;
+    height: 2179px;
+    /* border-top: 1px solid purple; */
+    border-top: 1px dashed brown;
+    position: relative;
+    
+
+
+}
+
+/* .background{
+    background-image: url(Assets/coffee.jpg);
+    width: 100vw;
+    height: 1500px;
+    opacity: 30%;
+    position: absolute;
+} */
+p {
+    font-size: 100px;
+    color: #e2e4e7;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    padding: 74px;
+    
+}
+
+.first {
+    /* display: flex; */
+    justify-content: center;
+}
+
+.image1 {
+    height: 300px;
+    width: 500px;
+    background-image: url(Assets/bcofee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 32px 204px;
+    padding: 3px 3px;
+    border-radius: 20px;
+    
+}
+.image1:hover{
+    animation: picture1 1s ease-in 1;
+}
+
+.text1 {
+    height: 300px;
+    width: 500px;
+    margin: -338px 772px;
+    padding: 3px 3px;
+    font-size: 22px;
+    font-family: 'Merienda', cursive;
+    color: #533c1e
+    
+}
+
+@keyframes picture1 {
+    0% {
+        height: 300px;
+        width: 500px;
+    }
+
+    50% {
+        height: 400px;
+        width: 600px;
+    }
+
+    100% {
+        height: 270px;
+        width: 450px;
+
+    }
+
+}
+
+span{
+
+    color: #950404;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.second{
+    justify-content: center;
+}
+
+
+
+.image2{
+    height: 300px;
+    width: 500px;
+    background-image: url(Assets/decaf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 422px 786px;
+    padding: 3px 3px;
+    border-radius: 20px;
+
+}
+
+.image2:hover{
+    animation: picture1 1s ease-in 1;
+}
+
+.text2{
+
+    height: 300px;
+    width: 500px;
+    margin: -713px 200px;
+    padding: 3px 3px;
+    font-size: 22px;
+    font-family: 'Merienda', cursive;
+    color: #533c1e
+}
+
+.third{
+    justify-content: center;
+}
+
+.image3{
+
+    height: 300px;
+    width: 500px;
+    background-image: url(Assets/expresso.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 768px 204px;
+    padding: 3px 3px;
+    border-radius: 20px;
+    
+
+}
+.image3:hover{
+    animation: picture1 1s ease-in 1;
+}
+.text3{
+
+    height: 300px;
+    width: 500px;
+    margin: -1040px 790px;
+    padding: 3px 3px;
+    font-size: 18px;
+    font-family: 'Merienda', cursive;
+    color: #533c1e
+
+}
+
+.fourth{
+    justify-content: center;
+}
+.image4{
+
+    height: 300px;
+    width: 500px;
+    background-image: url(Assets/latte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1078px 784px;
+    padding: 3px 3px;
+    border-radius: 20px;
+    
+
+}
+.image4:hover{
+    animation: picture1 1s ease-in 1;
+}
+.text4{
+
+    height: 300px;
+    width: 500px;
+    margin: -1364px 207px;
+    padding: 3px 3px;
+    font-size: 18px;
+    font-family: 'Merienda', cursive;
+    color: #394112;
+
+}
+.fidth{
+    justify-content:center ;
+}
+.image5{
+
+    height: 300px;
+    width: 500px;
+    background-image: url(Assets/irish.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1356px 204px;
+    padding: 3px 3px;
+    border-radius: 20px;
+    
+
+}
+.image5:hover{
+    animation: picture1 1s ease-in 1;
+}
+.text5{
+
+    height: 300px;
+    width: 500px;
+    margin: -1646px 783px;
+    padding: 3px 3px;
+    font-size: 22px;
+    font-family: 'Merienda', cursive;
+    color: #204109
+
+}
+
+.downbar{
+    background-color: black;
+    height: 18px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: smaller;
+    
+}
+
+
+
+

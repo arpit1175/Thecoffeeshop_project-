@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 83vh;
+    background-image: url(Assets/coffeebookk.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+
+
+}
+
+.navbar {
+    background-color: rgb(15, 13, 13);
+    overflow: auto;
+    border-radius: 30px;
+    opacity: 50%;
+    position: sticky;
+
+
+}
+
+.navbar ul {
+    display: flex;
+
+    float: right;
+
+
+}
+
+.navbar li {
+    list-style: none;
+    margin: 13px 13px;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 3px 3px;
+
+}
+
+.navbar li a:hover {
+    color: brown;
+}
+
+.search {
+    padding: 13px 25px;
+}
+
+.search input {
+    border-radius: 7px;
+}
+
+.coffeeshop {
+    margin: 85px 195px;
+    padding: 3px 3px;
+    font-weight: bolder;
+    color: #d2125a;
+    word-spacing: 3px;
+    font-family: 'Sacramento', cursive;
+    font-size: 87px;
+}
+.shop{
+    margin: -117px 264px;
+    padding: 3px 3px;
+    font-weight: bolder;
+    color: #d2125a;
+    word-spacing: 3px;
+    font-family: 'Sacramento', cursive;
+    font-size: 87px;
+
+}
+
+.text {
+
+    color: #c66697;
+    font-size: 37px;
+    margin: 203px 826px;
+    padding: 3px 3px;
+
+}
+
+.text pre {
+
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+.logo {
+    background-image: url(Assets/mainlogo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    position: absolute;
+    margin: -81px 55px;
+    animation: logi 3s infinite ease-in-out;
+}
+
+
+
+@keyframes logi {0%{
+    height: 120px;
+    width: 120px;
+
+}
+50%{
+    height: 100px;
+    width: 100px;
+
+}
+100%{
+    height: 122px;
+    width: 122px; 
+}
+    
+}
+
